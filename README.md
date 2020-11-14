@@ -153,7 +153,7 @@ function createNewChannel(flexFlowSid, flexChatService, recipientId, chatUserNam
         .webhooks.create({
           type: 'webhook',
           'configuration.method': 'POST',
-          'configuration.url': `https://techmatters-8552.twil.io/welcome?channel=${channel.sid}&recipient_id=${recipientId}`,
+          'configuration.url': `<Twilo Flex function URL>?channel=${channel.sid}&recipient_id=${recipientId}`,
           'configuration.filters': ['onMessageSent']
         })
         .then(() => client.chat
@@ -162,7 +162,7 @@ function createNewChannel(flexFlowSid, flexChatService, recipientId, chatUserNam
         .webhooks.create({
           type: 'webhook',
           'configuration.method': 'POST',
-          'configuration.url': `https://techmatters-8552.twil.io/welcome/channel-update`,
+          'configuration.url': `<Twilo Flex function URL>/channel-update`,
           'configuration.filters': ['onChannelUpdated']
         }))
     })
