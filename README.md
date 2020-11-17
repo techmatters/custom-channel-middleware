@@ -219,3 +219,10 @@ Celebrate!
 * https://github.com/vernig/twilio-flex-custom-webchat
 * https://github.com/twitterdev/autohook
 * https://github.com/ttezel/twit
+
+#### Contributors
+* Nick Hurlburt
+* Ashkon Honardoost
+* Deepak Srikanth
+* Elmer Thomas
+* Toby Allen
